@@ -1256,11 +1256,21 @@ details[open] summary:after {
   .face-radio input:checked ~ label {
     background-color: #fbdb6b;
     color: #393833;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    margin-right: 2%;
+    font-size: 14px;
     border-radius: 10px;
   }
   .face-radio input:hover ~ label {
     background-color: #fbdb6b;
     color: #393833;
+    cursor: pointer;
+    text-align: center;
+    width: 30%;
+    margin-right: 2%;
+    font-size: 14px;
     border-radius: 10px;
   }
   .count-button {

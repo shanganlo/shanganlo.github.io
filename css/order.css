@@ -616,9 +616,9 @@ h4 {
 }
 .footer-gray a:hover {
   text-decoration: none;
-  color: #393833;
-  width: 16%;
-  margin: 10px;
+  color: #727272;
+  width: 12%;
+  margin: 3%;
 }
 .material-symbols-outlined {
   background-color: #908f88;

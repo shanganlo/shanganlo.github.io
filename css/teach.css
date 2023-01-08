@@ -209,6 +209,7 @@ ul {
   text-decoration: none;
   width: 12%;
   margin-left: 6px;
+  font-size: 20px;
 }
 .footer a:hover {
   color: #908f88;

@@ -419,16 +419,7 @@ p {
   .nav-item {
     font-size: 16px;
   }
-  .footer {
-    font-size: 14px;
-  }
-  .footer a {
-    width: 16%;
-  }
-  .footer img {
-    width: 20px;
-    height: auto;
-  }
+
   .down-down {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
@@ -469,6 +460,16 @@ p {
     text-align: center;
     margin: 0 auto;
     z-index: 50;
+  }
+  .footer {
+    font-size: 14px;
+  }
+  .footer a {
+    width: 16%;
+  }
+  .footer img {
+    width: 20px;
+    height: auto;
   }
   .material-symbols-outlined {
     background-color: #908f88;

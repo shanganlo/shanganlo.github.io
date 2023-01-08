@@ -1,0 +1,1148 @@
+.tab-content {
+  margin: 0 15%;
+  width: 70%;
+}
+/*天地盒第一排盒子*/
+.skybox-first {
+  display: flex;
+}
+.skybox-first img {
+  padding: 5px;
+  width: 100%;
+}
+/*天地盒第二排盒子*/
+.skybox-second {
+  display: flex;
+}
+.skybox-second img {
+  padding: 5px;
+  width: 100%;
+}
+/*天地盒選項圖片*/
+/*1*/
+.sky-img-one {
+  position: relative;
+}
+.sky-img-one-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.sky-img-one:hover .sky-img-one-hover {
+  display: block;
+}
+.skybox-first {
+  width: 100%;
+}
+/*2*/
+.sky-img-two {
+  position: relative;
+}
+.sky-img-two-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.sky-img-two:hover .sky-img-two-hover {
+  display: block;
+}
+/*3*/
+.sky-img-three {
+  position: relative;
+}
+.sky-img-three-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.sky-img-three:hover .sky-img-three-hover {
+  display: block;
+}
+/*4*/
+.sky-img-four {
+  position: relative;
+}
+.sky-img-four-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.sky-img-four:hover .sky-img-four-hover {
+  display: block;
+}
+/*5*/
+.sky-img-five {
+  position: relative;
+}
+.sky-img-five-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.sky-img-five:hover .sky-img-five-hover {
+  display: block;
+}
+/*6*/
+.sky-img-six {
+  position: relative;
+}
+.sky-img-six-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.sky-img-six:hover .sky-img-six-hover {
+  display: block;
+}
+/*抽屜盒大字*/
+.drawer-box {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 4% 4%;
+}
+/*天地盒 抽屜盒 大圖+字*/
+.sky-box p {
+  text-align: center;
+  font-size: 28px;
+  font-weight: normal;
+  padding: 4% 4%;
+}
+.box-all {
+  display: flex;
+  align-items: center;
+}
+.first-img {
+  padding-right: 5%;
+  width: 40%;
+}
+.first-img img {
+  width: 100%;
+}
+.explain-1 {
+  font-size: 28px;
+  color: #908f88;
+  padding-bottom: 7%;
+  font-weight: 550;
+}
+.explain .text-1 {
+  font-size: 16px;
+}
+.explain {
+  width: 60%;
+}
+/*抽屜盒第一排盒子*/
+.drawerbox-first {
+  display: flex;
+}
+.drawerbox-first img {
+  padding: 5px;
+  width: 100%;
+}
+/*抽屜盒第二排盒子*/
+.drawerbox-second {
+  display: flex;
+}
+.drawerbox-second img {
+  padding: 5px;
+  width: 100%;
+}
+/*抽屜盒選項圖片*/
+/*1*/
+.drawer-img-one {
+  position: relative;
+}
+.drawer-img-one-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.drawer-img-one:hover .drawer-img-one-hover {
+  display: block;
+}
+.drawerbox-first {
+  width: 100%;
+}
+/*2*/
+.drawer-img-two {
+  position: relative;
+}
+.drawer-img-two-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.drawer-img-two:hover .drawer-img-two-hover {
+  display: block;
+}
+/*3*/
+.drawer-img-three {
+  position: relative;
+}
+.drawer-img-three-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.drawer-img-three:hover .drawer-img-three-hover {
+  display: block;
+}
+
+/*4*/
+.drawer-img-four {
+  position: relative;
+  width: 33%;
+}
+.drawer-img-four-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.drawer-img-four:hover .drawer-img-four-hover {
+  display: block;
+}
+/*5*/
+.drawer-img-five {
+  position: relative;
+  width: 33%;
+}
+.drawer-img-five-hover {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  width: 98%;
+  height: 98%;
+  background-color: #000000;
+  color: #f5f5f5;
+  opacity: 0.5;
+  text-align: center;
+  padding: 33% 0;
+  border-radius: 15px;
+  display: none;
+}
+.drawer-img-five:hover .drawer-img-five-hover {
+  display: block;
+}
+/*頁籤*/
+.nav {
+  margin: 100px 15%;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #fbdb6b;
+}
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 15px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #000000;
+  text-decoration: none;
+}
+/*下拉內容*/
+.card {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  box-shadow: 1px 1px 5px #908f88;
+  border: none;
+  border-radius: 15px;
+  margin: 0;
+}
+/*輪播圖*/
+.carousel {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 0%;
+  vertical-align: middle;
+}
+.carousel-item img {
+  width: 100%;
+}
+/*輪播圖*/
+/*輪播箭頭*/
+.material-symbols-rounded {
+  font-family: "Material Symbols Rounded";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 40px !important;
+  line-height: 1;
+  color: #000;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+/*輪播箭頭*/
+.skybox-dropdown {
+  position: relative;
+  display: inline-block;
+  width: 40%;
+  height: 320px;
+  margin: 3%;
+  vertical-align: middle;
+}
+.skybox-text {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 5%;
+}
+.skybox-text-two {
+  position: absolute;
+  display: inline-block;
+  right: 2%;
+  text-align: end;
+  vertical-align: top;
+  text-align: left;
+}
+.skybox-dropdown h5 {
+  font-weight: 600;
+  color: #393833;
+  margin-bottom: 5%;
+  font-size: 20px;
+  margin-left: 5%;
+  font-weight: normal;
+}
+.skybox-dropdown p {
+  font-size: 16px;
+}
+.customized {
+  width: 100%;
+  height: 40px;
+  border-radius: 15px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ffc701;
+  color: #000000;
+  text-decoration: none;
+  display: inline-block;
+}
+.imgbutton a {
+  font-size: 16px;
+}
+.customized:hover {
+  color: #ffffff;
+}
+.text-one {
+  margin-bottom: 40px;
+}
+.text-two {
+  margin-bottom: 40px;
+}
+.imgbutton {
+  margin-top: 40%;
+}
+/*下拉內容*/
+.box-all {
+  margin-bottom: 5%;
+}
+.sky-box-1 {
+  margin-top: 0%;
+}
+.nav {
+  --bs-nav-link-hover-color: #000(--bs-link-hover-color);
+}
+
+.cell {
+  display: none;
+}
+
+/*導覽頁-頂*/
+body {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
+.backgroud {
+  background-color: white;
+  box-shadow: 10px #393833;
+  box-shadow: 0px 10px 5px #d6d6d6;
+}
+.navbar {
+  width: 100%;
+  height: 118px;
+  z-index: 100;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.search:hover .nav-text {
+  display: block;
+}
+.search {
+  position: relative;
+}
+.container-fluid,
+.collapse {
+  padding: 25px 0;
+}
+.nav-text {
+  width: 270px;
+  display: none;
+  position: absolute;
+  top: -3px;
+  right: 2px;
+  display: none;
+}
+.nav-text input {
+  border-radius: 15px;
+  border: 1.5px solid #ffc701;
+}
+.nav-text button {
+  background-color: white;
+  color: #ffc701;
+  border: white;
+}
+.nav-li {
+  text-decoration: none;
+  padding: 0 8px;
+}
+.nav-shopping {
+  margin-right: 10px;
+}
+.nav-shopping,
+.navbar-toggler {
+  display: inline-block;
+}
+.ol,
+ul {
+  padding-left: 0;
+}
+.navbar-nav {
+  --bs-nav-link-padding-x: none;
+}
+.container-fluid {
+  margin: 0 13%;
+}
+::marker {
+  color: white;
+}
+.nav-ite,
+.nav-icon,
+.nav-search {
+  font-size: 20px;
+  font-weight: normal;
+  padding: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nav-li {
+  color: #908f88;
+}
+.nav-li:hover {
+  color: #ffc701;
+}
+.nav-icon:hover {
+  color: #ffc701;
+}
+.nav-button {
+  background-color: #ffc701;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 15px 47px 15px 47px;
+  border-radius: 15px;
+  border: #ffc701;
+  text-decoration: none;
+}
+.nav-button:hover {
+  background-color: #fbdb6b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+.navbar-nav {
+  position: absolute;
+  right: 0%;
+  margin-right: 13%;
+}
+/*導覽頁-底*/
+/*footer-頂*/
+.footer {
+  display: inline-block;
+  background-color: #f5f5f5;
+  height: 100px;
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  margin: 133px auto 0;
+}
+.footer a {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #393833;
+  text-decoration: none;
+  width: 12%;
+  margin-left: 6px;
+}
+.footer a:hover {
+  color: #908f88;
+}
+.down-down {
+  display: flex;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  line-height: 90px;
+  justify-content: center;
+}
+.footer,
+.down-down {
+  justify-content: center;
+}
+.material-symbols-outlined {
+  background-color: #908f88;
+  color: #ffffff;
+  border-radius: 60px;
+  margin-left: 5px;
+  padding: 10px;
+  font-size: 24px;
+}
+.material-symbols-outlined:hover {
+  background-color: #fbdb6b;
+  color: #ffffff;
+  border-radius: 60px;
+  margin-left: 5px;
+  padding: 10px;
+  font-size: 24px;
+}
+/*footer-底*/
+/*手機板*/
+@media (min-width: 992px) {
+  /*導覽頁*/
+  .navbar-expand-lg .navbar-toggler,
+  .navbar-expand-lg .nav-shopping {
+    display: none;
+  }
+}
+/* 手機板寫這裡 */
+@media (max-width: 992px) {
+  .box-all,
+  #pills-profile-tab,
+  #pills-contact-tab,
+  .nav-link,
+  .card,
+  .tab-content {
+    display: none;
+  }
+  .nav {
+    margin-top: 50px;
+  }
+
+  .cell {
+    margin: 0 11.5%;
+    width: 80%;
+    display: block;
+  }
+  /*天地盒第一排盒子*/
+  .skybox-first {
+    display: flex;
+  }
+  .skybox-first img {
+    padding: 5px;
+    width: 100%;
+  }
+
+  /*天地盒大字*/
+  .sky-box p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  /*天地盒選項圖片*/
+  /*1*/
+  .sky-img-one {
+    position: relative;
+  }
+  .sky-img-one-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .sky-img-one:hover .sky-img-one-hover {
+    display: block;
+  }
+  .skybox-first {
+    width: 100%;
+  }
+  /*2*/
+  .sky-img-two {
+    position: relative;
+  }
+  .sky-img-two-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .sky-img-two:hover .sky-img-two-hover {
+    display: block;
+  }
+  /*3*/
+  .sky-img-three {
+    position: relative;
+  }
+  .sky-img-three-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .sky-img-three:hover .sky-img-three-hover {
+    display: block;
+  }
+  /*4*/
+  .sky-img-four {
+    position: relative;
+  }
+  .sky-img-four-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .sky-img-four:hover .sky-img-four-hover {
+    display: block;
+  }
+  /*5*/
+  .sky-img-five {
+    position: relative;
+  }
+  .sky-img-five-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .sky-img-five:hover .sky-img-five-hover {
+    display: block;
+  }
+  /*6*/
+  .sky-img-six {
+    position: relative;
+  }
+  .sky-img-six-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .sky-img-six:hover .sky-img-six-hover {
+    display: block;
+  }
+
+  /*天地盒第一排盒子*/
+  .drawerbox-first {
+    display: flex;
+  }
+  .drawerbox-first img {
+    padding: 5px;
+    width: 100%;
+  }
+  /*抽屜盒大字*/
+  .drawer-box p {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 7%;
+    margin-bottom: 2%;
+  }
+
+  /*抽屜盒選項圖片*/
+  /*1*/
+  .drawer-img-one {
+    position: relative;
+  }
+  .drawer-img-one-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .drawer-img-one:hover .drawer-img-one-hover {
+    display: block;
+  }
+  .drawerbox-first {
+    width: 100%;
+  }
+  /*2*/
+  .drawer-img-two {
+    position: relative;
+  }
+  .drawer-img-two-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .drawer-img-two:hover .drawer-img-two-hover {
+    display: block;
+  }
+  /*3*/
+  .drawer-img-three {
+    position: relative;
+  }
+  .drawer-img-three-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .drawer-img-three:hover .drawer-img-three-hover {
+    display: block;
+  }
+  /*4*/
+  .drawer-img-four {
+    position: relative;
+  }
+  .drawer-img-four-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .drawer-img-four:hover .drawer-img-four-hover {
+    display: block;
+  }
+  /*5*/
+  .drawer-img-five {
+    position: relative;
+  }
+  .drawer-img-five-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+  }
+  .drawer-img-five:hover .drawer-img-five-hover {
+    display: block;
+  }
+
+  .skybox-first,
+  .skybox-second.drawerbox-first,
+  .drawerbox-second {
+    width: 100%;
+  }
+  .skybox-first,
+  .skybox-second,
+  .drawerbox-first,
+  .drawerbox-second {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .sky-img-one,
+  .sky-img-two,
+  .sky-img-three,
+  .sky-img-four,
+  .sky-img-five,
+  .sky-img-six,
+  .drawer-img-one,
+  .drawer-img-two,
+  .drawer-img-three,
+  .drawer-img-four,
+  .drawer-img-five {
+    width: 48%;
+  }
+
+  /*導覽頁*/
+  .navbar-expand-lg .container-fluid .navbar-brand img {
+    width: 105px;
+    height: auto;
+  }
+  .navbar-brand {
+    margin-left: 5%;
+  }
+  .navbar {
+    max-width: 100vw;
+  }
+  .navbar-collapse {
+    background-color: white;
+    width: 100%;
+    height: 1080px;
+    box-shadow: 0 10px 5px inset #d6d6d6;
+  }
+  .container-fluid {
+    position: relative;
+    padding: 25px;
+    margin: 0;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .nav-ite {
+    font-size: 20px;
+    font-weight: normal;
+    padding: 35px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .nav-shopping > li {
+    padding: 18px;
+    margin-top: 0;
+  }
+  .navbar-nav {
+    margin: auto;
+    position: relative;
+    top: 100px;
+  }
+  .nav-li {
+    position: absolute;
+    padding: 0 18px;
+    left: 5%;
+    width: 90%;
+    height: 50px;
+    border-bottom: solid #908f88 1px;
+  }
+  .nav-shopping {
+    margin-right: 0;
+  }
+  .phone {
+    margin-right: 5%;
+  }
+  .nav-text {
+    display: block;
+  }
+  .nav-icon {
+    display: none;
+  }
+  .nav-search {
+    padding: 0;
+  }
+  .nav-car {
+    color: #908f88;
+  }
+  .nav-car:hover {
+    color: #ffc701;
+  }
+  .search {
+    position: relative;
+    top: -300px;
+  }
+  .nav-search .search a {
+    display: none;
+  }
+  .nav-text {
+    width: 90%;
+    margin: 0 5%;
+  }
+  ol,
+  ul {
+    padding-left: 0 !important;
+  }
+  .nav-text input {
+    width: 100%;
+    height: 61px;
+    border-radius: 15px;
+    border: 1.5px solid #908f88;
+    padding-inline-start: 68px;
+  }
+  .nav-text button {
+    position: absolute;
+    left: 55px;
+    top: 14px;
+    color: #393833;
+  }
+  .nav-button {
+    position: absolute;
+    background-color: white;
+    color: #908f88;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    left: 5%;
+    font-weight: normal;
+    padding: 0 18px;
+    border-radius: 0px;
+    border: #ffc701;
+    text-decoration: none;
+    border-bottom: solid #908f88 1px;
+  }
+  .nav-button:hover {
+    background-color: white;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: #ffc701;
+  }
+  .nav-button button {
+    font-size: 20px;
+    background-color: white;
+    color: #908f88;
+  }
+  /*導覽頁*/
+  /*footer*/
+  .footer {
+    font-size: 16px;
+  }
+  .down-down {
+    font-size: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    justify-content: center;
+  }
+  /*footer*/
+}
+@media (max-width: 576px) {
+  .sky-img-two-hover {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 98%;
+    height: 98%;
+    background-color: #000000;
+    color: #f5f5f5;
+    opacity: 0.5;
+    text-align: center;
+    padding: 33% 0;
+    border-radius: 15px;
+    display: none;
+    font-size: 12px;
+  }
+  .sky-img-one-hover,
+  .sky-img-three-hover,
+  .sky-img-four-hover,
+  .sky-img-five-hover,
+  .sky-img-six-hover,
+  .drawer-img-one-hover,
+  .drawer-img-two-hover,
+  .drawer-img-three-hover,
+  .drawer-img-four-hover,
+  .drawer-img-five-hover,
+  .drawer-img-six-hover {
+    font-size: 12px;
+  }
+  .sky-box p,
+  .drawer-box p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+  .footer {
+    font-size: 14px;
+  }
+  .footer a {
+    width: 16%;
+  }
+  .footer img {
+    width: 20px;
+    height: auto;
+  }
+  .material-symbols-outlined {
+    background-color: #908f88;
+    color: #ffffff;
+    border-radius: 60px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .material-symbols-outlined:hover {
+    background-color: #fbdb6b;
+    color: #ffffff;
+    border-radius: 60px;
+    margin-left: 5px;
+    padding: 10px;
+    font-size: 20px;
+  }
+}

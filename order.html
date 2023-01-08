@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我要訂製</title>
+    <script
+      src="https://kit.fontawesome.com/807f77777d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./img4/logo.png" />
+    <link href="./css/googlefont.css" rel="stylesheet" />
+    <link href="./css/order.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg backgroud">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="http://127.0.0.1:5500/index.html"
+          ><img src="./image2/logo.png"
+        /></a>
+        <div class="phone">
+          <div class="nav-shopping">
+            <li class="nav-item">
+              <a class="nav-car" href="#"
+                ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html"
+                >關於我們</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="./teach.html"
+                >新手教學</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./order.html"
+                >快速訂製</a
+              >
+            </li>
+            <ul class="nav-search">
+              <li class="search">
+                <a class="nav-link" href="#"
+                  ><i class="fa-sharp fa-solid fa-magnifying-glass"></i
+                ></a>
+                <ul class="nav-text">
+                  <li>
+                    <form class="d-flex" role="search">
+                      <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="請輸入關鍵字"
+                        aria-label="Search"
+                      />
+                      <button class="btn-outline-success" type="submit">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </form>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <li class="nav-icon">
+              <a class="nav-link" href="#"
+                ><i class="fa-sharp fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-button"
+                href="http://127.0.0.1:5500/log%20in/index.html"
+                >登入</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="content">
+        <div class="product">
+            <div class="product-photo">
+                <img src="./image2/Mask group.png" >
+                <img src="./image2/Mask group (1).png" id="pic-none">
+                <img src="./image2/Mask group (2).png" id="pic-none2">
+            </div>
+            <div class="product-details">
+                <div class="produt-name">
+                    <h2>天地盒BUDC0102</h2>
+                </div>
+                <div class="product-info">
+                    <div class="need">
+                        <p>如有特殊刀模需求</p>
+                        <a href="#">請按此估價>></a>
+                    </div>
+                    <div class="quantity">
+                        <p>訂製數量：</p>
+                        <details class="custom-select">
+                            <summary class="radios">
+                                <input type="radio" name="item" id="default" title="1" checked>
+                                <input type="radio" name="item" id="item1" title="1">
+                                <input type="radio" name="item" id="item2" title="50">
+                                <input type="radio" name="item" id="item3" title="100">
+                                <input type="radio" name="item" id="item4" title="200">
+                                <input type="radio" name="item" id="item5" title="300">
+                                <input type="radio" name="item" id="item6" title="400">
+                                <input type="radio" name="item" id="item7" title="500">
+                                <input type="radio" name="item" id="item8" title="600">
+                            </summary>
+                            <ul class="list">
+                                <li>
+                                    <label for="item1">1<span></span</label>
+                                </li>
+                                <li><label for="item2">50</label></li>
+                                <li><label for="item3">100</label></li>
+                                <li><label for="item4">200</label></li>
+                                <li><label for="item5">300</label></li>
+                                <li><label for="item6">400</label></li>
+                                <li><label for="item7">500</label></li>
+                                <li><label for="item8">600</label></li>
+                            </ul>
+                        </details>
+                    </div>
+                    <div class="material">
+                        <p>紙張材質：</p>
+                        <div class="select">
+                            <details class="custom-select">
+                                <summary class="radios">
+                                <input type="radio" name="item2" id="default" title="一般卡紙" checked>
+                                <input type="radio" name="item2" id="paper1" title="一般卡紙">
+                                <input type="radio" name="item2" id="paper2" title="美術紙">
+                                </summary>
+                                <ul class="list">
+                                <li class="paper1"><label for="paper1">一般卡紙<span></span</label></li>
+                                <li class="paper2"><label for="paper2">美術紙</label></li>
+                            </ul>
+                            
+                            </details>
+                            <div class="input-box">
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="a" name="paper">
+                                    <label for="a">白卡紙(單銅T)</label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="b" name="paper">
+                                    <label for="b">食品卡紙</label>
+                                </div>
+                            </div>
+                            <div class="input-box-art">
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="a" name="paper">
+                                    <label for="a">牛皮紙</label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="b" name="paper">
+                                    <label for="b">黑卡紙</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="thickness">
+                        <p>紙張厚度：</p>
+                        <div class="mm">
+                            <div class="input-box-mm">
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="mm-1" name="thick">
+                                    <label for="mm-1">41T(0.41mm)</label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="mm-2" name="thick">
+                                    <label for="mm-2">51T(0.51mm)</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="file">
+                        <p>上傳檔案：</p>
+                        <div class="upload">
+                            <input id="input" hidden type="file" /> 
+                            <label for="input" class="file-input">
+                                選擇檔案
+                            </label>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="package-size">
+                    <p>包裝尺寸：</p>
+                    <form class="input-size">
+                        <div class="h-w">
+                            <p>長 
+                            <input type="text" id="hamNumId" placeholder="80-350"/> mmx寬
+                            <input type="text" id="cokeNumId" placeholder="60-240" /> mmx高
+                            <input type="text" id="heiNumId" placeholder="60-240" /> mm
+                            </p>
+                        </div>
+                        <div class="t-h">
+                            <p>壁厚
+                            <input type="text" id="topNumId" placeholder="4-20"/> mm   上蓋高度
+                            <input type="text" id="higNumId" placeholder="60-240" /> mm
+                            </p>
+                        </div>
+                        </form>
+                    <div class="print">
+                        <p>印刷選擇：</p>
+                        <div class="mm">
+                            <div class="input-box">
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="color" name="p-color">
+                                    <label for="color">單面四色</label>
+                                </div>
+                                <div class="radio-wrapper">
+                                    <input type="radio" id="n-color" name="p-color">
+                                    <label for="n-color">不印刷</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="face">
+                        <p>表面處理：</p>
+                        <div class="face-choice">
+                            <div class="face-radio">
+                                <input type="radio" id="no" name="film">
+                                <label for="no">不上膜</label>
+                            </div>
+                            <div class="face-radio">
+                                <input type="radio" id="light" name="film">
+                                <label for="light">亮膜</label>
+                            </div>
+                            <div class="face-radio">
+                                <input type="radio" id="hard" name="film">
+                                <label for="hard">硬膜</label>
+                            </div>    
+
+                        </div>
+                    </div>
+                    <div class="add">
+                        <p>後加工：</p>
+                        <div class="face-choice">
+                            <div class="face-radio">
+                                <input type="radio" id="hot" name="add">
+                                <label for="hot">燙印</label>
+                            </div>
+                            <div class="face-radio">
+                                <input type="radio" id="out" name="add">
+                                <label for="out">打凸</label>
+                            </div>
+                            <div class="face-radio">
+                                <input type="radio" id="uv" name="add">
+                                <label for="uv">局部UV</label>
+                                
+                            </div>    
+
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-prize">
+                    <button class=count-button type="button" id="countId" value="計算">計算價格</button>
+                    <div class="price">
+                        <p>訂製價格：</p>
+                        <p> <strong class="total" id="totalId"></strong> 元</p>
+                    </div>
+                    
+                </div>
+                <div class="go-back">
+                    <div class="cart">
+                        <a href="#" id="add">加入購物車</a>
+                        <a href="./order-two.html" id="next">下一步</a>
+                        <a href="./finish.html" id="next2">下一步</a>
+                    </div>
+                    
+                </div>
+    
+            </div>
+        </div>
+        <section class="mainTab">
+            <div class="container">
+                <input type="radio" name="panelCtrl" id="tab1" checked>
+                <input type="radio" name="panelCtrl" id="tab2">
+                <div class="tabPanel">
+                    <label for="tab1" class="tab tab1">商品描述</label>
+                    <label for="tab2" class="tab tab2">工藝應用</label>
+            </div>
+            <div class="line"></div>
+        
+            <div class="contentGroup">
+                <div class="content content1">
+                    <div class="intro-1">
+                        <img src="./image2/top 拷貝 1.png">
+                        <div class="text1">
+                            <h3>天地盒</h3>
+                            <p>
+                                盒蓋為<天>，底盒為<地>，故稱天地蓋 又稱天地盒，由兩個<br>折盒互蓋成型，雙層盒體增加堅固性及抗壓性，能充分保護商<br>品，且質感佳，常用於禮盒型式。
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <div class="intro-2">
+                        <div class="intro-2-left">
+                            <img src="./image2/finger 拷貝 1.png">
+                            <div class="text2">
+                                <h3>手指孔</h3>
+                                <p>
+                                    通常在位於開蓋處的地方加上手指孔，<br>包裝開啟時更便利。
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="intro-2-right">
+                            <img src="./image2/thickness 拷貝 1.png">
+                            <div class="text2">
+                                <h3>壁厚</h3>
+                                <p>
+                                    可依據用途自訂義壁厚(5-20mm)，<br>注意包裝應對商品的承重能力。
+                                </p>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="intro-3">
+                        <img src="./image2/direction.png">
+                        <div class="text3">
+                            <p>
+                            六面盒體都會有連續的4個面，稱之為脈。
+                            盒子正面通常為1脈或3脈，側邊為2跟4脈。<br>
+                            1-1脈蓋子的開口方向與主體面相同。<br>
+                            1-3脈蓋子的開口方向與主體面反向。
+
+                            </p>
+                        </div>
+                        
+                    </div>
+                    <div class="intro-4">
+                        <img src="./image2/Group 76.png">
+                        <p>
+                            A面:凡印有產品圖像/LOGO/客戶戶名稱的區域。<br>
+                            B面:其餘外部可見見之區域。<br>
+                            C面:底部及盒內部之區域。<br>
+                        </p>
+                        </div>
+                </div>
+                <div class="content content2">
+                    <div class="veido">
+                        <h4>製稿教學影片</h4>
+                        <iframe width="830" height="530" src="https://www.youtube.com/embed/K_JoKy3CLO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="plus">
+                        <h4>工藝介紹</h4>
+                        <img src="./image2/layer.jpeg">
+                        <img src="./image2/cmyk.jpeg">
+                        <img src="./image2/surface.jpeg">
+                        <img src="./image2/hotspot.jpeg">
+                        <img src="./image2/emboss.jpeg">
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <div class="footer">
+        <div class="footer-gray">
+            <a href="#">新手教學</a>
+            <a href="#">會員相關</a>
+            <a href="#">常見問題</a>
+            <a href="#">據點資訊</a>
+             <a href="#"><span class="material-symbols-outlined">call</span></a>
+        </div>
+        <div class="footer-white">
+            <p>2018 All Rights Reserved.</p>
+        </div>
+    </div>      
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="js/all.js"></script>
+    
+</body>
+</html>

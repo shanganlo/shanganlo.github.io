@@ -946,7 +946,10 @@ ul {
 
   .lastpage,
   .confirm {
-    width: 150px;
+    width: 34%;
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
   }
   .lastpage {
     border: #727272 solid 1px;
@@ -976,5 +979,34 @@ ul {
     margin-left: 5px;
     padding: 10px;
     font-size: 20px;
+  }
+  .address-county p,
+  .address-county details {
+    display: flow-root;
+  }
+  .address-town p,
+  .address-town details {
+    display: flow-root;
+  }
+  .address-pay p,
+  .address-pay details {
+    display: flow-root;
+  }
+  .address-pay {
+    border-bottom: 1px solid #c2c2c2;
+    padding-bottom: 20px;
+  }
+  .type-address input,
+  .note input {
+    width: 230px;
+    height: 80px;
+  }
+  .pickup-info p,
+  .address-pay p {
+    padding: 0px;
+    padding-top: 4px;
+  }
+  .receipt p {
+    padding: 4px 0px;
   }
 }

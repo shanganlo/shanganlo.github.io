@@ -1,7 +1,7 @@
 document.getElementById("countId").onclick = function () {
   //button 使用getElementById (後面不用加點，直接套 id 名稱) 加上一個 onclick 事件，並執行 function 內容
   var hamPrice = 30;
-  var cokePrice = 800;
+  var cokePrice = 30;
   var heiPrice = 100;
   var topPrice = 100;
   var higPrice = 100;

@@ -509,6 +509,9 @@ ul {
     font-size: 16px;
     margin: 50px 0;
   }
+  .footer a {
+    font-size: 16px;
+  }
   .footer img {
     width: 36px;
     height: auto;

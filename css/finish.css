@@ -491,7 +491,6 @@ ul {
 .footer {
   display: inline-block;
   background-color: #f5f5f5;
-  width: 100%;
   height: 100px;
   display: flex;
   vertical-align: middle;
@@ -506,6 +505,7 @@ ul {
   text-decoration: none;
   width: 12%;
   margin-left: 6px;
+  font-size: 20px;
 }
 .footer a:hover {
   color: #908f88;
@@ -567,7 +567,7 @@ ul {
   }
   .nav-item {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: normal;
     padding: 18px;
     display: inline-block;
     vertical-align: middle;
@@ -626,12 +626,11 @@ ul {
     position: absolute;
     background-color: white;
     color: #908f88;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Arial, Helvetica, sans-serifS;
     width: 95%;
     height: 50px;
     font-size: 20px;
-    font-weight: bolder;
+    font-weight: normal;
     padding: 0 18px;
     border-radius: 0px;
     border: #ffc701;
@@ -640,8 +639,7 @@ ul {
   }
   .nav-button:hover {
     background-color: white;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffc701;
   }
   .nav-button button {
@@ -790,6 +788,9 @@ ul {
   }
   .lastpage {
     border: #727272 solid 1px;
+  }
+  .footer a {
+    font-size: 16px;
   }
 }
 @media (max-width: 576px) {

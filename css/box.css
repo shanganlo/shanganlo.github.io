@@ -485,11 +485,13 @@ a:hover {
     justify-content: center;
     height: 30%;
   }
+
   .footer-gray {
     background-color: #f5f5f5;
     line-height: 100px;
     text-align: center;
     align-items: center;
+    font-size: 16px;
   }
   .footer-white {
     line-height: 78px;
@@ -499,6 +501,9 @@ a:hover {
   }
   .all {
     margin-bottom: 70px;
+  }
+  .footer-gray a {
+    font-size: 16px;
   }
 }
 

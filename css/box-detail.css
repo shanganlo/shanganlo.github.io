@@ -1074,6 +1074,9 @@ ul {
   .footer {
     font-size: 16px;
   }
+  .footer a {
+    font-size: 16px;
+  }
   .down-down {
     font-size: 10px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",

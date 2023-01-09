@@ -1126,6 +1126,24 @@ ul {
     color: #000000;
     background-color: #fbdb6b;
   }
+  .footer-gray {
+    background-color: #f5f5f5;
+    line-height: 100px;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-gray a {
+    font-size: 16px;
+  }
+  .footer-white {
+    line-height: 78px;
+    color: #393833;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+  .all {
+    margin-bottom: 70px;
+  }
 }
 
 .p > p {

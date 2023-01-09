@@ -1056,6 +1056,10 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
   }
+  .footer-gray a {
+    font-size: 16px;
+    width: 12%;
+  }
   .product-info {
     border-bottom: 1px solid #c2c2c2;
     padding-bottom: 28px;

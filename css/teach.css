@@ -532,6 +532,7 @@ ul {
   }
   .footer a {
     width: 16%;
+    font-size: 14px;
   }
   .footer img {
     width: 20px;
@@ -541,7 +542,7 @@ ul {
     font-size: 10px;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
-    height: 70px;
+    height: 10px;
   }
   .material-symbols-outlined {
     background-color: #908f88;
